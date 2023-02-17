@@ -1,0 +1,55 @@
+const marketplacePartner = [
+  {
+    type: "alarms",
+    icon: "uil uil-lock-access",
+    cardTitle: "Alarms",
+    subTitle: "To Home Security.",
+    text: "Protection for every window, room and door. Against intruders, fires, water damage, medical emergencies & more.",
+    img: "/img/alarms1.png",
+    partners: [
+      {
+        name: "Safestreet",
+        description: "Find Safety in Your Home with a Home Security System.",
+        image: "/img/safestreet.jpeg",
+        url: "https://www.safestreets.com/",
+      },
+    ],
+  },
+  {
+    type: "solars",
+    icon: "uil uil-sun",
+    cardTitle: "Solars",
+    subTitle: "To Green Energy.",
+    text: "Save time, save fossil fuels, save yourself the hassle of grid outages",
+    img: "/img/solars1.png",
+    partners: [],
+  },
+  {
+    type: "fundings",
+    icon: "uil uil-dollar-sign-alt",
+    cardTitle: "Funding",
+    subTitle: "To Money.",
+    text: "Our marketplace guarantees to secure the very best funding that you qualify for.",
+    img: "/img/fundings1.png",
+    partners: [],
+  },
+  {
+    type: "insurance",
+    icon: "uil uil-shield-plus",
+    cardTitle: "Insurance",
+    subTitle: "Is Good.",
+    text: "Easily compare insurance rates from top companies. Save time and money when searching for the best auto, life, home, or health insurance policy online.",
+    img: "/img/insurance1.png",
+    partners: [],
+  },
+  {
+    type: "financial-plans",
+    icon: 'uil uil-list-ul"></i>',
+    cardTitle: "Financial Plans",
+    subTitle: "To Financial Planning.",
+    text: "Discover our resources to keep you informed and on track for your long-term goals.",
+    img: "/img/plans1.png",
+    partners: [],
+  },
+];
+export default marketplacePartner;
